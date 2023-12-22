@@ -228,6 +228,7 @@
 .studio-link {
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-list {
   display: flex;
@@ -483,6 +484,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first-svg:hover,
 .first-svg:focus {
@@ -511,6 +513,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-iv-link:hover,
 .section-iv-link:focus {
@@ -539,6 +542,8 @@
   align-items: center;
   justify-content: center;
   color: var(--light-slate-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover {
   border-color: #404bbf;
@@ -581,4 +586,8 @@
 }
 .is-hidden {
   visibility: hidden;
+}
+
+.close-button {
+  position: absolute;
 }

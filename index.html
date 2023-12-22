@@ -24,14 +24,6 @@
   </head>
 
   <body class="body-section">
-    <div class="modal is-hidden" data-modal>
-      <button data-modal-close>
-        close
-        <svg width="8px" ; height="8px">
-          <use href="./images/icons.svg#close"></use>
-        </svg>
-      </button>
-    </div>
     <!--Header-section-->
 
     <header class="header-hwiii">
@@ -44,20 +36,20 @@
           <ul class="list nav-menu">
             <li>
               <a
-                class="nav-elements link studio-link studio-styles"
+                class="nav-elements link studio-link studio-style"
                 href="./index.html"
                 >Studio</a
               >
             </li>
             <li>
               <a
-                class="nav-elements link studio-link studio-styles"
+                class="nav-elements link studio-link studio-style"
                 href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="nav-elements link studio-link studio-styles" href="">
+              <a class="nav-elements link studio-link studio-style" href="">
                 Contacts</a
               >
             </li>
@@ -536,6 +528,8 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <div data-modal-open class="modal">
+      <script src="./js/modal.js"></script>
+    </div>
   </body>
 </html>
