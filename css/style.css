@@ -612,8 +612,8 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier (0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 .close-button:hover {
   background-color: #404bbf;
@@ -656,11 +656,9 @@
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-card-paragraph {
-  color: var(--slate-color);
-}
-.portfolio-card-paragraph:hover,
-.portfolio-card-paragraph:focus {
+
+.image-cards-container-paragraph:hover,
+.image-cards-container-paragraph:focus {
   transform: translateY(0%);
 }
 .image-cards-container {
@@ -680,6 +678,4 @@
   width: 100%;
   transform: translateY(100%);
 }
-.image-cards-container:hover {
-  overflow: visible;
-}
+/*
