@@ -678,3 +678,6 @@
   width: 100%;
   transform: translateY(100%);
 }
+.image-cards-container:hover {
+  overflow: visible;
+}
