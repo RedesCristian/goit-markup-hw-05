@@ -156,9 +156,7 @@
 .paragraph-port-cards:focus {
   transform: translateY(0%);
 }
-.image-cards-container:hover:#image-cards-container-paragraph {
-  transform: translateY(0%);
-}
+
 .section-five-title {
   margin-bottom: 72px;
 }
@@ -627,10 +625,12 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .close-button:hover {
   background-color: #404bbf;
   border: none;
 }
+
 .close-button:focus {
   background-color: #404bbf;
   border: none;
