@@ -246,7 +246,7 @@
 .studio-link {
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 .adress-list {
   display: flex;
@@ -625,7 +625,7 @@
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier (0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button:hover {
   background-color: #404bbf;
